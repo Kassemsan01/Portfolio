@@ -288,7 +288,6 @@ body {
     width: 300px;
     height: 300px;
     padding: 20px;
-    margin-left: 5%;
 }
 
 .extra_proj_01 h3 {
@@ -331,8 +330,6 @@ body {
     width: 300px;
     height: 300px;
     padding: 20px;
-    margin-left: -20%;
-    margin-top: -22.6%;
 }
 
 .extra_proj_02 h3 {
@@ -353,7 +350,6 @@ body {
     float: right;
     border-radius: 35px;
     image-rendering: auto;
-    margin-top: -13%;
 }
 
 .extra_proj_02 img:hover {
@@ -377,8 +373,6 @@ body {
     width: 300px;
     height: 300px;
     padding: 20px;
-    margin-left: 30%;
-    margin-top: -22.6%;
 }
 
 .extra_proj_03 h3 {
@@ -399,7 +393,6 @@ body {
     float: right;
     border-radius: 35px;
     image-rendering: auto;
-    margin-top: -13%;
 }
 
 .extra_proj_03 img:hover {
@@ -423,8 +416,6 @@ body {
     width: 300px;
     height: 300px;
     padding: 20px;
-    margin-left: 55%;
-    margin-top: -22.6%;
 }
 
 .extra_proj_04 h3 {
@@ -445,7 +436,6 @@ body {
     float: right;
     border-radius: 35px;
     image-rendering: auto;
-    margin-top: -13%;
 }
 
 .extra_proj_04 img:hover {
@@ -464,10 +454,12 @@ body {
 }
 
 .extra_proj {
-    display: block;
-    justify-content: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
     width: 100%;
     padding-left: 8%;
+    margin-left: -20%;
 }
 
 #Contatos {
