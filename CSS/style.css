@@ -503,46 +503,28 @@ body {
     line-height: 30px;
 }
 
-#Contatos img {
-    width: 100px;
-    height: 100px;
-    float: start;
-    border-radius: 60%;
-    image-rendering: auto;
-    margin-top: 3%;
-    margin-right: 20%;
+.git_link{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 35%;
+    height: 300px;
+    padding: 20px;
+    margin-left: 30%;
 }
 
-#Contatos img:hover {
-    background-color: #5FF1D0;
+.git_link img {
+    width: 100px;
+    height: 100px;
     border-radius: 60%;
+}
+
+.git_link img:hover {
+    background-color: #5FF1D0;
     border: #5FF1D0 2px solid;
     
 }
 
-
-.butao button {
-    padding: 10px 20px;
-    font-size: 15px;
-    cursor: pointer;
-    transition: left 0.50s ease-in-out;
-    margin-top: 10%;
-    background-color: #0A192F;
-    color: #5FF1D0;
-    border-color: #5FF1D0;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    width: 150px;
-    height: 55px;
-    margin-left: 12%;
-    margin-bottom: 20%;
-}
-
-.butao button:hover, button:focus {
-    transform: scale(1.1);
-    border-right: 5px solid #5FF1D0;
-    border-bottom: 5px solid #5FF1D0;
-    left: -20px;
-}
 
 .btn_topo button {
     padding: 10px 20px;
@@ -557,7 +539,7 @@ body {
     height: 55px;
     margin-left: 43%;
     margin-bottom: 5%;
-    margin-top: -5%;
+    margin-top: 10%;
 }
 
 .btn_topo button:hover {
