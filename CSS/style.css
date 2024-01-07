@@ -194,48 +194,48 @@ body {
 }
 
 .foto_01 img {
-    width: 600px;
-    height: 400px;
+    width: 650px;
+    height: 420px;
     border-radius: 5%;
     padding: 15px;
     filter: invert(30%) grayscale(.60);
-    transition: 500ms linear;
+    transition: ease-in 1s;
 }
 
 .foto_01 img:hover {
     filter: invert(0%) grayscale(.0);
-    margin: -20px auto;
-    transition: 500ms linear;
+    transition: ease-in-out 1s;
+    transform: translateX(10px) scale(1.0);
 }
 
 .foto_02 img {
-    width: 600px;
-    height: 400px;
+    width: 650px;
+    height: 420px;
     border-radius: 5%;
     padding: 15px;
     filter: invert(30%) grayscale(.60);
-    transition: 500ms linear;
+    transition: ease-in 1s;
 }
 
 .foto_02 img:hover {
     filter: invert(0%) grayscale(.0);
-    margin: -20px auto;
-    transition: 500ms linear;
+    transition: ease-in-out 1s;
+    transform: translateX(10px) scale(1.0);
 }
 
 .foto_03 img {
-    width: 600px;
-    height: 400px;
+    width: 650px;
+    height: 420px;
     border-radius: 5%;
     padding: 15px;
     filter: invert(30%) grayscale(.60);
-    transition: 500ms linear;
+    transition: ease-in 1s;
 }
 
 .foto_03 img:hover {
     filter: invert(0%) grayscale(.0);
-    margin: -20px auto;
-    transition: 500ms linear;
+    transition: ease-in-out 1s;
+    transform: translateX(10px) scale(1.0);
 }
 
 .descricao h2 {
