@@ -62,6 +62,7 @@ body {
     background-color: transparent;
     padding: 20px;
     border: none;
+    border: 5px solid transparent;
 }
 
 #Home a:hover {
@@ -71,6 +72,7 @@ body {
     border-radius: 10%;
     border-right: 5px solid #5FF1D0;
     border-bottom: 5px solid #5FF1D0;
+    margin-left: 4px;
 }
 
 #Home b {
@@ -343,7 +345,7 @@ body {
     color: #a2aed3;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-size: 23px;
-    padding-bottom: 100px;
+    padding-bottom: 75px;
 }
 
 .extra_proj_02 img {
