@@ -559,3 +559,23 @@ body {
     border-bottom: 5px solid #5FF1D0;
     left: -20px;
 }
+
+
+@media (max-width: 600px){
+    #Home{
+        width: 100vh;
+
+    }
+
+    #Home img{
+        width: 150px;
+        height: 150px;
+        margin-left: 30px;
+    }
+
+    .apresentacao{
+        width: 100%;
+        margin-top: 100px;
+        margin-left: 50%;
+    }
+}
